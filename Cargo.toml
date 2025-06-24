@@ -1,6 +1,6 @@
 [package]
 name = "gradient-string"
-version = "0.1.1"
+version = "0.2.0"
 edition = "2024"
 description = "gradient-string is a safe crate to iterate over a gradient of permutations of string slices"
 documentation = "https://docs.rs/gradient-string"
@@ -16,6 +16,3 @@ categories = ["algorithms"]
 [lib]
 name = "gradient_string"
 path = "src/lib.rs"
-
-[dependencies]
-gradient-slice = "0.2.1"
